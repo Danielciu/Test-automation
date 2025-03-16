@@ -41,7 +41,7 @@ cy.get('#input_25').click();
 //assert
 cy.url().should('include', '/submit.jotform.com'); 
 cy.get('.thankyou-main-text').should('contain','Thank You!');
-
+cy.screenshot('picture');
 });
 
 
